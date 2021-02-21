@@ -17,9 +17,9 @@ $base-font-size-phone : 14px;
     box-sizing: border-box;
 }
 body {
-    font-family: "Gill Sans", sans-serif;
+    font-family: "Charlie Text", sans-serif;
     font-size: $base-font-size;
-
+    
     @include media(phone) {
         font-size: $base-font-size-phone;
     }

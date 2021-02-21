@@ -7,6 +7,7 @@ import Home from './components/pages/Home';
 import Signup from './components/pages/Signup';
 import Login from './components/pages/Login';
 import User from './components/pages/User';
+import Checklist from './components/pages/Checklist';
 import Default from './components/pages/Default';
 
 const Routes = () => {
@@ -22,6 +23,7 @@ const Routes = () => {
           <Route path="/account/signup" component={Signup} />
           <Route exact path="/account/login" component={Login} />
           <Route path="/account/login/user/info" component={User} />
+          <Route path="/user/checklist" component={Checklist} />
           <Route path="*" component={Default} />
         </Switch>
       </Router>

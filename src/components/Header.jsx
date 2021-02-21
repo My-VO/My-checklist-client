@@ -12,19 +12,17 @@ function Header() {
 
   return (
     <section className="header">
-      <div>
-        <Link to="/">
-          <div>
-            <img
-              src={logo}
-              alt="logo"
-            />
-            <p>Check list</p>
-          </div>
-        </Link>
-      </div>
-      <Link to="/account/login">
-        <CompteIcon />
+      <Link to="/">
+        <div className="header__branch">
+          <img
+            src={logo}
+            alt="logo"
+          />
+          <p className="header__branch__name">Checklist</p>
+        </div>
+      </Link>
+      <Link to="/account/login" className="header__link">
+        <CompteIcon className="header__link__icon" />
         <span>{!state.user && 'Compte'}</span>
         <span>{state.user && state.user.first_name}</span>
         <span>{state.user && state.user.firstName}</span>

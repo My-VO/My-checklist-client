@@ -15,7 +15,7 @@ function Footer() {
           <span>03 45 67 89 12</span>
           <span>•</span>
           <Link to="/">
-            <span>Check list</span>
+            <span>Checklist</span>
           </Link>
           <span>•</span>
           <a href="https://www.facebook.com/">

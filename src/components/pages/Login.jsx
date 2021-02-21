@@ -48,6 +48,9 @@ const Login = () => {
             <Link to="/account/login/user/info">Mes informations</Link>
           </li>
           <li>
+            <Link to="/user/checklist">Mes checklists</Link>
+          </li>
+          <li>
             <a href="/account/login" onClick={logOut}>
               Se déconnecter
             </a>
