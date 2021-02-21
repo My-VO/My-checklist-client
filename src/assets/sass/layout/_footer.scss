@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 5px 2rem;
+    font-size: 0.85rem;;
+    display: flex;
+    justify-content: center;
+    span {
+        color: white;
+        margin: 0 4px;
+        font-size: 90%;
+    }
+
+    &__reseaux-sociaux {
+        width: 0.85rem;;
+    }
+}
